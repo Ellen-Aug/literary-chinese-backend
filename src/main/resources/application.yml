@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: literary-chinese-backend
+
+server:
+  port: 8080
+
+# Default profile (fallback)
+spring:
+  profiles:
+    active: local

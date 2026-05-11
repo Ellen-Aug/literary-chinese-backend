@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://YOUR_SERVER_IP:5432/literary_chinese
+    username: YOUR_DB_USER
+    password: YOUR_DB_PASSWORD
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+
+server:
+  port: 8080
+
+# Security & other prod settings later
